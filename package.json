@@ -1,0 +1,48 @@
+{
+  "name": "ny-times-react",
+  "version": "1.0.0",
+  "description": "MERN (mongo,express,react,and node) search app that allows users to scrape articles dynamically from New York Times.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramos13/Ny-Times-React.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "NodeJs",
+    "ExpressJs",
+    "MongoDB",
+    "Axios",
+    "Mongoose",
+    "Babel",
+    "Body-parser"
+  ],
+  "author": "Phillip Ramos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pramos13/Ny-Times-React/issues"
+  },
+  "homepage": "https://github.com/pramos13/Ny-Times-React#readme",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.11.1",
+    "body-parser": "^1.15.2",
+    "core-js": "^2.4.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-router": "^2.6.1",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
